@@ -1,6 +1,6 @@
 # 🚀 End-to-End Data Engineering Pipeline on Azure
 
-This project demonstrates an end-to-end data engineering pipeline using Azure services — from ingesting raw data to transforming and visualizing it in Power BI.
+This project demonstrates an end-to-end data engineering pipeline built on Microsoft Azure, using the Medallion Architecture (Bronze, Silver, Gold layers). The raw data is sourced directly from a public GitHub repository using HTTPS and ingested into Azure Data Lake Storage via Azure Data Factory. Once the data lands in the Bronze layer, Azure Databricks is used for cleaning, transformation, and processing, after which the refined data is moved to the Silver layer. The connection between Databricks and Azure Blob Storage is secured using an access token. From there, Azure Synapse Analytics (serverless SQL) is used to create Gold layer views, applying business logic and modeling the data for analytics. These Gold views are then connected to Power BI, enabling interactive dashboards and visual reports for business users and analysts. The project includes Databricks notebooks, SQL scripts, and sample visualizations to showcase the full data journey from ingestion to insight.
 
 ---
 
