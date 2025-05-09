@@ -6,7 +6,7 @@ This project demonstrates an end-to-end data engineering pipeline using Azure se
 
 ## 🧱 Architecture Overview
 
-![Architecture Diagram](images/architecture-diagram.png)
+![Architecture Diagram](Architecture/Architecture.png)
 
 ---
 
@@ -14,7 +14,7 @@ This project demonstrates an end-to-end data engineering pipeline using Azure se
 
 - Azure Data Factory (ADF)
 - Azure Blob Storage (Bronze, Silver, Gold layers)
-- Azure Databricks
+- Azure Databricks (Pyspark)
 - Azure Synapse Analytics (Serverless SQL)
 - Power BI
 
