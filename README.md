@@ -30,5 +30,18 @@ This project demonstrates an end-to-end data engineering pipeline built on Micro
 6. **📊 Visualization**: Power BI connects to Synapse and visualizes the data.
 
 ---
+## Azure Data Factory
+
+![Azure Data Factory](Architecture/Screenshot%202025-05-15%20152505.png)
+
+## Databricks
+
+![Databricks - Part 1](Architecture/Screenshot%202025-05-15%20152813.png)
+
+![Databricks - Part 2](Architecture/Screenshot%202025-05-15%20152833.png)
+
+## Synapse
+
+![Synapse](Architecture/Screenshot%202025-05-15%20153054.png)
 
 
